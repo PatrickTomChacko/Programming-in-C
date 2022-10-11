@@ -26,6 +26,7 @@ int main(){
         // Multiply partial area by (pi/3)/(2*12)
         // Convert it to radians first
         mult_rad = (M_PI*((b_deg)/(2*N)))/180.0;
+        
         area = mult_rad*area;
         printf("The approximate area is %f : ",area);
         printf("The exact area is %f : ", log(2.0));
