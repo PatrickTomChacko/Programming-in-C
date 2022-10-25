@@ -1,0 +1,16 @@
+This week consists of two files:
+1. main.c
+2. matmul.c
+
+
+main.c consists the main body of the code where the matrices are initialized and printed.
+matmul.c consists strictly of the function doing the multiplicaiton on the initialized matrices.
+
+To run these files together:
+>> gcc -c main.c
+// This will create a main.o file
+>> gcc -c matmul.c
+// This will create matmul.o file
+>> gcc -o matmul main.0 matmul.o
+>>./matmul
+This will run main.c using matmul.c
