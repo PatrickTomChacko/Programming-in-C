@@ -1,0 +1,2 @@
+In Practical 3 we learnt to use printf function and printed the approx area under the curve using the trapezodial formula.
+We could see only small difference in actual and approximated area, difference lies in the 3rd decimal place.
