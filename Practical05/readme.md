@@ -15,7 +15,7 @@ and it will print out the first x digits of the fibonacci sequence
 
 To run this code use:
 
-> gcc -o hyper hyperbolic.c
+> gcc -o hyper hyperbolic.c -lm
 
 > ./hyper
 
