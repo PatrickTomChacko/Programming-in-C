@@ -1,4 +1,4 @@
-Practical09 has code for Magic Sqaure recoginition
+Practical09 has code for Magic Square recognition
 
 to run the code use: 
 
