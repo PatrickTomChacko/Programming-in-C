@@ -5,7 +5,7 @@ This file can be run using
 The expected output is an integer and two float numbers rounded off to the 2nd decimal position
 
 
-2.scanning.c
+2. scanning.c
 This file can be run using
 >> gcc -o scan scanning.c
 The expected output is that the code will ask you to enter two positive numbers.
