@@ -25,9 +25,11 @@ int main()
 	printf("%d, %d", f0,f1);
 
 	for (i=2;i<=n;i++){
+		// calling the function on f1 and f0
 		fibonacci(&f1, &f0);
 		printf("%d ,", f1);
 		
+		// to avoid printing more than 10 numbers on one line
 		if (((i+1)%10)==0) printf("\n");
 	}
 
