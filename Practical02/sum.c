@@ -10,21 +10,23 @@ int main(void) {
 /* First sum */
    sum1 = 0.0;
    for (i=1; i<=1000; i++) {
-      /*  Insert here */
+      sum1 = sum1 + 1.0/(float) i;
    }
 
 
 /* Second sum */
    sum2 = 0.0;
+   float temp;
    for (i=1000; i>0; i--) {
-      /* Insert the same line as above except use sum2 */
+      temp = 1/i;
+      sum2 = sum2 + temp;
    }
 
    printf(" Sum1=%f\n",sum1);
    printf(" Sum2=%f\n",sum2);
 
 /* Find the difference */
-   diff = /* ?? */
+   diff = sum2-sum1;
 
    printf(" Difference between the two is %f\n",diff);
 
