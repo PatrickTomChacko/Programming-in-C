@@ -1,0 +1,1 @@
+In Matrix multiplication we declared 3 arrays of known sizes and set their values as given in our problem sheet. The user doesn't have to do anything, Matrix multiplication is then carried out and the result is printed. This practical can be further used to enter in the values and sizes of matrices and make it do the matrix multiplication for matrices of our choice.
