@@ -18,14 +18,14 @@ int i,j,k;                          //loop counters
     }
 for(i=0;i<n;i++){
     for(j=0;j<q;j++){
-      C[i][j] = 0;
+      C[i][j] = 0;                              //Initialising as 0 so that it doesn't take garbage value
      }
     }
 //Perform Matrix multiplication
     for(i=0;i<n;i++){
       for(j=0;j<q;j++){
         for(k=0; k<p; k++){
-		C[i][j] = C[i][j] +A[i][k]*B[k][j];
+		C[i][j] = C[i][j] +A[i][k]*B[k][j];     //Matrix Multiplication
             }  
 	}      
      }
@@ -33,8 +33,8 @@ for(i=0;i<n;i++){
   printf("\nThe matrix A is \n");
  for(i=0;i<n;i++){
     for(j=0;j<p;j++){
-      printf("%3.0f ",A[i][j]);
-     }printf("\n");
+      printf("%3.0f ",A[i][j]);			//for 3 spaces between enteries
+     }printf("\n");                             // after one row we need to enter into new line
     }
   printf("\nThe matrix B is \n");
    for(i=0;i<p;i++){
