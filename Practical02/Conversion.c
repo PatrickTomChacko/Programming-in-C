@@ -17,6 +17,7 @@ int main(void) {
 /* Convert to binary number (string)*/
    i = 0; tmp = inum;
    while (tmp > 0) {
+      // assigning the character array the remainder of the division between tmp and 2 (either 1 or 0)
      sprintf(&binnum[i],"%1d",tmp%2);
      tmp = tmp/2;
      i++;
@@ -24,6 +25,7 @@ int main(void) {
 
 /* Terminate the string */
    binnum[i] = '\0';
+   // adding \0 to signify the end of the string
        
 
 /* Complete the expression */
