@@ -1,0 +1,6 @@
+In this code I have learnt and programmed to calculate the value of Inverse hyperbolic tangent function using two different methods.
+The first method and subroutine in code calculates the value of Inverse hyperbolic tangent by taking a delta value and computing the Maclaurin sum till the maclaurin sum is greater than delta. The user is required to enter the precision which is delta here. The second method and subroutine calculates the required function using log approximations. 
+
+The difference between both approximation is calculated and displayed, it can be observed that both values are quite similiar. fabs is ised for finding difference of floats.
+
+x has been initialised the value from -0.9 to 0.9 with step of 0.01
