@@ -1,0 +1,2 @@
+This program aims to solve the Hanoi Tower puzzle using recursive function. The user can define the nummber of discs are on the primary rod and then by recursion we shift the discs such that all the discs in ascending order of sizes are stacked on the final rod.
+In our code these three rods are defined as source, inter and destination.
