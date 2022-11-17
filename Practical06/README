@@ -1,3 +1,8 @@
+The files in this folder are used to perform Matrix Multiplication
+The input matrices are intialized within the code and the function used to multiply them is defined in "matmul.c"
+The output matrix is displayed once the code is compiled and run.
+
+
 This week consists of two files:
 1. main.c
 2. matmul.c
@@ -13,4 +18,5 @@ To run these files together:
 // This will create matmul.o file
 >> gcc -o matmul main.0 matmul.o
 >>./matmul
+
 This will run main.c using matmul.c

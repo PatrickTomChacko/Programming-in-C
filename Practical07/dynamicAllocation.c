@@ -45,6 +45,5 @@ int main()
     printarray(a,length);
     freearray(a);
     a=NULL;
-    5
     return 0;
 }
