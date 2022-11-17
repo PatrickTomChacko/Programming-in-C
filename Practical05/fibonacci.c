@@ -22,7 +22,7 @@ int main()
 		exit(1);
 		}
 	printf("The fibonacci sequence is : \n");
-	printf("%d, %d", f0,f1);
+	printf("%d, %d ,", f0,f1);
 
 	for (i=2;i<=n;i++){
 		// calling the function on f1 and f0
