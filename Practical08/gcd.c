@@ -11,13 +11,14 @@ int main(){
     int a, b, ierror;
 
     printf("Enter the two positive integers\n");
-
+    
     ierror = scanf("%d %d", &a,&b);
     if (ierror!=2){
         printf("Please enter two integers\n");
         return 1;
     }
-
+    
+    // code will not run if the numbers entered are not positive.
     if (a<=0 || b<=0){
         printf("These numbers are not positive\n");
         return 1;
@@ -51,6 +52,7 @@ int recursiveGCD(int a, int b){
         return a;
     }
     else {
+        // calling the same function recursively
         return(recursiveGCD(b,a%b));
     }
 
