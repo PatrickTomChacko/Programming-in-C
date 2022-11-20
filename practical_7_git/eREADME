@@ -1,0 +1,3 @@
+In this program we are trying to estimate the value of e using Taylor series expansion, we can see as we increase the number of terms our estimate goes very near the true value but at higher powers its behaving badly, this is because double can hold only till a specific value and since the factorials and x increases rapidly there is this huge value which is out of bounds for float, hence using double could have been a little better but this is the main cause of bad behaviour of function.
+
+We have used malloc for dynamic memory allocation and also freed up the memory after use.
