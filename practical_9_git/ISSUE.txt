@@ -1,0 +1,2 @@
+This code was not running in sciprog but is working in Visual Studio code, The code has been copied from instructor present that day.
+Instructor used and compiled in VSC. Disclaimer - It works in Windows and MAC
