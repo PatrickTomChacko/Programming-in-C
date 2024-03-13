@@ -1,0 +1,3 @@
+WAP in C to print the approx area under the curve using the trapezodial formula.
+
+Result: We see only small difference in actual and approximated area, difference lies in the 3rd decimal place.

@@ -1,0 +1,3 @@
+In this code we are checking whether a given matrix is magic Square or not.  If the rows, columns, diagonal add upto the same number then the matrix is called magic. In this program we have included a header file declared by us and linked it to the main file. Program asks the user to enter a filename and the program reads the elements in the file, dynamically allocates memory for it, prints if it is magic or not and finally frees up the allocatted space. 
+
+Big Theta notation as we can see here will be a function of n^2 where n is the size of matrix, it will have n*n elements.

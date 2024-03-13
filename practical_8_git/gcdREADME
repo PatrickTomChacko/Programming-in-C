@@ -1,2 +1,0 @@
-In this practical we are calculating the Greatest Common Divisor of two numbers which are input by the user. We are calculating GCd using two methods which are developed as different subroutines in the code. In both of these functions the underlying principle is Euclidean algorithm.
-The first method is by iteration and the second one is by recursive function and both of them give the same answer.
